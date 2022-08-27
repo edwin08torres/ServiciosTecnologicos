@@ -551,7 +551,7 @@ section {
     display: flex;
     align-items: center;
     background: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50)),
-        url(/Img/Technology-Abstract-Business-16.9.jpg) no-repeat;
+        url("/Img/Technology-Abstract-Business-16.9.jpg") no-repeat;
     background-size: cover;
     background-position: top;
     margin-top: 50px;

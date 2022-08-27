@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Anclando el CSS-->
+    <link rel="stylesheet" type="text/css" href="/css/buy.css">
+
+    <!--FONTAWESOME ICONS-->
+    <script src="https://kit.fontawesome.com/610c201c1f.js" crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <title>SoporteTechnologys</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav-second">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <i class="fab fa-servicestack"></i>
+                    <h4>SoporteTechnologys</h4>
+                </a>
+            </div>
+            <!-- <div class="nav-ubicacion">
+            <i class="fas fa-home"></i>
+            <p>Managua,Nicaragua</p>
+            <P class="number">22778899</P>
+        </div>
+
+        <div class="nav-contact">
+            <i class="fas fa-mobile"></i>
+            <h3>Whatsapp</h3>
+            <p class="number">78425381</p>
+        </div> -->
+        </div>
+
+        <div class="nav-third">
+            <!-- <div class="nav-links"> -->
+            <div class="nav-links">
+                <li><a class="inicio" href="index.html">Inicio</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li>
+                    <a href="#">Servicios</a>
+                    <ul class="menu-vertical">
+                        <li class="heading">-Outsourcing Informatico</li>
+                        <li><a href="/HTML/servicioInfo.html">Soporte y mantenimiento</a></li>
+                        <li><a href="#">Adminsitracion de sistemas</a></li>
+                        <li><a href="#">Evaluacion y asesoria</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Soporte</a>
+                    <ul class="menu-vertical">
+                        <li class="heading">Telefononia</li>
+                        <li><a href="CentralT.html">Central Telefonica</a></li>
+                        <li><a href="">Call center</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Soluciones</a>
+                    <ul class="menu-vertical">
+                        <li class="heading">Proteccion Y recuperacion</li>
+                        <li><a href="#">Anti-virus</a></li>
+                        <li><a href="#">Backup</a></li>
+                        <li><a href="#">Firewall</a></li>
+                    </ul>
+                </li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </div>
+
+
+            <!-- <div class="nav-car">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div> -->
+        </div>
+
+        <!-- <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+    </header> -->
+
+        <!-- Section card empieza -->
+        <section class="cards">
+            <div class="cards-super">
+                <div class="cards-header">
+                    <div class="cards-title">
+                        <div class="title">
+                            <h3>producto</h3>
+                        </div>
+                        <div class="other">
+                            <h3>Modo entrega</h3>
+                            <h3>Cantidad</h3>
+                            <h3>Precio</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-detalles">
+                        <div class="card-detalles__container">
+                            <div class="first">
+                                <div class="logo">
+                                    <i class="fab fa-servicestack"></i>
+                                </div>
+                                <div class="detalles">
+                                    <h3>Servicio de soporte y mantenimiento informatico</h3>
+                                    <div class="col-8 ">
+                                        <form action="">
+                                            <div class="form-group">
+                                                <select class="form-control" name="documento">
+                                                    <option>---</option>
+                                                    <option selected value="1 Año">1 Año</option>
+                                                    <option value="2 año">2 Año</option>
+                                                    <option value="3 año">3 Año</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relleno">
+                            <p>Esta licencia no se puede activar fuera de América Latina, las Islas del Caribe ni
+                                las Islas
+                                Ultramarinas Menores de EE. UU. No se puede activar en México ni Brasil.</p>
+                        </div>
+                    </div>
+                    <div class="card-pago">
+                        <div class="modo">
+                            <p>Digital</p>
+                        </div>
+                        <div class="cantidad">
+                            <p>1</p>
+                        </div>
+                        <div class="precio">
+                            <div class="sub">
+                                <p><span>$USD 39.00</span></p>
+                                <p>$USD 31.00</p>
+                            </div>
+                            <div class="total">
+                                <p>TOTAL:</p>
+                                <h3>USD 31.00</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- section card termina -->
+     
+        <!-- Section metodo inicia -->
+        <section class="metodo">
+            <div class="box-container">
+                <div class="first">
+                    <div class="title">
+                        <div class="info">
+                            <h2>1- Introduce tu informacion de facturacion</h2>
+                        </div>
+                        <div class="cambio">
+                            <a onclick="cardToggle()" class="change">Personal</a>
+                            <a>Empresa</a>
+                        </div>
+                    </div>
+                    <form action="">
+                       <div class="form-content" id="form-content">
+                        <div class="firsty">
+                            <div class="inputBox">
+                                <span class="fas fa-envelope"></span>
+                                <input class="email" type="text" required
+                                    placeholder="Nombre de la empresa">
+                            </div>
+                            <div class=" barra col-10">
+                                <div class="form-group">
+                                    <label for="documento">Pais</label>
+                                    <select class="form-control" name="documento">
+                                        <option selected>---</option>
+                                        <option class="fs-6" value="Nicaragua">Nicaragua</option>
+                                        <option value="Costa rica">Costa rica</option>
+                                        <option value="Guatemala">Guatemala</option>
+                                        <option value="Guatemala">Panama</option>
+                                        <option value="Guatemala">El salvador</option>
+                                        <option value="Guatemala">Honduras</option>
+                                        <option value="Guatemala">Belice</option>
+                                        <option value="Guatemala">Argentina</option>
+                                        <option value="Guatemala">Chile</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="segunda">
+                                <div class="nombre">
+                                    <div class="inputBox">
+                                        <span class="fas fa-user"></span>
+                                        <input type="text" required placeholder="nombre">
+                                    </div>
+                                    <div class="inputBox">
+
+                                        <input type="text" required placeholder="apeliido">
+                                    </div>
+                                </div>
+                                <div class="inputBox">
+                                    <span class="fas fa-envelope"></span>
+                                    <input class="email" type="email" required
+                                        placeholder="correo electronico (requerido)">
+                                </div>
+                                <div class="inputBox">
+                                    <span class="fas fa-phone"></span>
+                                    <input type="number" required placeholder="Telefono">
+                                </div>
+                                <div class="inputBox">
+                                    <span class="fas fa-user"></span>
+                                    <input type="text" required placeholder="direccion">
+                                </div>
+                                <div class="lugar">
+                                    <div class="inputBox">
+                                        <span class="fas fa-user"></span>
+                                        <input type="text" required placeholder="codigo postal">
+                                    </div>
+                                    <div class="inputBox">
+                                        <span class="fas fa-user"></span>
+                                        <input type="text" required placeholder="ciudad">
+                                    </div>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="checkbox" required>
+                                    <p>Estoy de acuerdo y autorizo a SoporteTechnologys a conservar mi email, y nombre
+                                        completo
+                                        para asegurar el envio de ofertas personalizadas, encuestas, y consejos sobre la
+                                        seguridad en internet. En cualquier momento puede cancelar su suscripción en la
+                                        configuración de su cuenta de SoporteTechnologys o a través de los enlaces de
+                                        correo
+                                        electrónico para cancelar la suscripción. Confirmo que la Política de privacidad
+                                        del
+                                        sitio web a sido puesta a mi disposicion.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-container">
+                            <div class="second">
+                                <div class="title">
+                                    <div class="info">
+                                        <h2>2- Introduce una forma de pago</h2>
+                                    </div>
+                                    <div class="cambio">
+                                        <p>Tarjetas Bancarias</p>
+                                    </div>
+                                </div>
+                                <form action="">
+                                    <div class="input-box">
+                                        <label class="label " for="">Numero tarjeta</label>
+                                        <input class="email" type="email" required placeholder="Numero de tarjeta">
+                                    </div>
+                                    <div class="barra col-6">
+                                        <div class="sub form-group">
+                                            <label for="">Mes</label>
+                                            <select class="form-control" name="" id="">
+                                                <option>01</option>
+                                                <option>02</option>
+                                                <option>03</option>
+                                                <option>04</option>
+                                                <option>05</option>
+                                                <option>06</option>
+                                                <option>07</option>
+                                                <option>08</option>
+                                                <option>09</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="barra col-6">
+                                        <div class="sub form-group">
+                                            <label for="">Año</label>
+                                            <select class="form-control" name="" id="">
+                                                <option>21</option>
+                                                <option>22</option>
+                                                <option>23</option>
+                                                <option>24</option>
+                                                <option>25</option>
+                                                <option>26</option>
+                                                <option>27</option>
+                                                <option>28</option>
+                                                <option>29</option>
+                                                <option>30</option>
+                                                <option>31</option>
+                                                <option>32</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="input-box">
+                                        <label class="label" for="">CVV</label>
+                                        <input class="cvv" type="number" required placeholder="800">
+                                    </div>
+                                    <div class="word input-box">
+                                        <input type="checkbox" required>
+                                        <p>Acepto los Términos y condiciones de renovación automática, Términos y
+                                            condiciones y la
+                                            Política de Privacidad del distribuidor oficial Nexway.</p>
+                                    </div>
+                                    <div class="input-box__btn">
+                                        <input type="submit" class="btn" value="Comprar">
+                                        <p class="buy">Obtenga su código de activación inmediatamente después del pago</p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                       </div> 
+                        
+                    </form>
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- section metodo termina -->
+        <footer class="footer">
+            <div class="box-derechos">
+                <p class="derecho">Repair © 2022.Todos los derechos reservados.</p>
+            </div>
+            <div class="box-links">
+                <a class="links" href="#">Inicio</a>
+                <a class="links" href="#">Contacto</a>
+                <a class="links" href="#">Servicios</a>
+                <a class="links" href="#">Soporte</a>
+                <a class="links" href="#">Soluciones</a>
+            </div>
+
+        </footer>
+
+        <script src="/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,428 @@
+* {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    transition: all .5s;
+
+}
+
+:root {
+    --main-color: #d3ad7f;
+}
+
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+
+section {
+    padding: 2rem 7%;
+}
+
+.heading{
+    text-align: center;
+    color:#000;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 5rem;
+}
+
+.heading span{
+    color:var(--main-color);
+    text-transform: uppercase;
+    font-size: 5rem;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 2.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
+.header {
+    width: 100%;
+    height: 180px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.nav-first {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background: #000;
+}
+
+.nav-first .time {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 10px;
+}
+
+.nav-first i {
+    color: #fff;
+}
+
+.nav-first .time h3 {
+    margin: 0 10px 0 10px;
+}
+
+.nav-first .nav-mail {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-right: 25px;
+}
+
+.nav-first .nav-mail h4 {
+    margin: 0 12px 0 12px;
+}
+
+.nav-first .nav-mail:hover {
+    letter-spacing: .18rem;
+}
+
+.nav-first .nav-social {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-self: end;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.nav-first .nav-social .fa-facebook-f:hover {
+    color: #4267b2;
+}
+
+.nav-first .nav-social .fa-twitter:hover {
+    color: #1dA1f2;
+}
+
+.nav-first .nav-social .fa-instagram:hover {
+    color: #cd486b;
+}
+
+.nav-first .nav-social .fa-linkedin-in:hover {
+    color: #0077b5;
+}
+
+.nav-second {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+
+.nav-second .nav-logo {
+    display: flex;
+    width: 200px;
+    height: auto;
+    align-items: center;
+    justify-self: start;
+    margin-left: 20px;
+}
+
+
+.nav-second .nav-logo a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-second .nav-ubicacion {
+    display: flex;
+    width: 200px;
+    height: auto;
+    justify-self: center;
+    align-items: center;
+}
+
+.nav-second i {
+    font-size: 5rem;
+    color: #111;
+}
+
+.nav-second .nav-ubicacion p {
+    margin: 0 0 0 10px;
+}
+
+.nav-second .nav-ubicacion .number {
+    margin-top: 6px;
+}
+
+
+
+.nav-second .nav-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-second .nav-contact .number {
+    margin-top: 8px;
+}
+
+.nav-second .nav-contact h3 {
+    margin: 0 4px 0 10px;
+}
+
+.nav-third {
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 50px;
+    border-top: 3px solid #99999987;
+}
+
+.nav-third .nav-links {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-self: center;
+    justify-content: space-between;
+    height: auto;
+}
+
+
+
+.nav-third .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+}
+
+.nav-third .nav-links a:hover {
+    text-decoration: none;
+    color: #4c4a4a7b;
+    font-size: 28px;
+}
+
+.nav-third .nav-links a::after {
+    color: #000;
+}
+
+.nav-third .nav-links .servicios {
+    align-self: stretch;
+    padding-top: 10px;
+    color: #1dA1f2;
+    font-weight: bold;
+    letter-spacing: .5rem;
+}
+
+
+.menu-vertical > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 300px;
+    background-color: #fff;
+}
+
+.nav-links li{
+    list-style: none;
+    color: #000;
+}
+
+.nav-links li:hover .menu-vertical{
+    display: block;
+    
+}
+
+.menu-vertical li a:hover {
+   background: #99999987;
+}
+
+.menu-vertical li a{
+    display: block;
+}
+
+.nav-third .nav-links .menu-vertical .heading{
+    color: #000;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.nav-third .nav-links .menu-vertical li a{
+    color: #000;
+}
+
+.header .icons div {
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover {
+    color: var(--main-color);
+}
+
+#menu-btn {
+    display: none;
+}
+
+/* HOME INICIA */
+
+.home{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(5,7,12,0.50),rgba(5,7,12,0.50)),
+    url(/Img/rsz_1pexels-lenin-estrada-2569997.jpg) no-repeat;
+    background-size: 100vw;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h2{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #Dff;
+}
+
+.home .content p{
+    font-size: 2rem;
+    letter-spacing: .3rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+/* HOME TERMINA */
+
+/* CATALOGO COMIENZA */
+  .catalogo .box-container{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+      gap: 1.5rem;
+      width: 100%;
+  }
+
+  .catalogo .box-container .box{
+      border: .1rem solid rgba(255,255,255,.3);
+  }
+
+  .catalogo .box-container .box .image{
+      height: 30rem;
+      overflow: hidden;
+      width: 100%;
+  }
+
+  .catalogo .box-container .box img{
+      height: 100%;
+      object-fit: initial;
+      width: 100%;
+  }
+
+  .catalogo .box-container .box:hover .image img{
+    transform: scale(1.2);
+}
+
+.catalogo .box-container .box .content{
+    padding: 2rem;
+    background: #030313;
+}
+
+.catalogo .box-container .box .content .title{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.catalogo .box-container .box .content p{
+    color: #fff;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+.catalogo .vermas{
+    padding-top:10px;
+    margin-top: 1rem;
+    padding:.9rem 3rem;
+    font-size: 2.7rem;
+    color:#fff;
+    background: #000;
+    cursor: pointer;
+    width: 5%;
+    margin-left: 45%;
+   
+}
+
+.catalogo .vermas a{
+    color: #fff;
+    transition: .5s all;
+}
+  
+.catalogo .vermas:hover{
+    transform: scale(1.2);
+}
+
+/* CATALOGO TERMINA */
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    width: 100vw;
+    background: #000;
+    height: 50px;
+}
+
+.footer .box-derechos {
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    justify-content: center;
+
+}
+
+.footer .box-derechos .derecho {
+    margin-left: 30px;
+    color: #fff;
+}
+
+.footer .box-links {
+    display: flex;
+    width: 600px;
+    justify-self: end;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .box-links .links {
+    margin-right: 30px;
+    color: #fff;
+}
+
+.footer .box-links a {
+    text-decoration: none;
+}
